@@ -1,0 +1,150 @@
+{
+  "id": "umurca_ovasi",
+  "name": "Umurca Ovası",
+  "safe": false,
+  "seed": 111,
+  "extent": [
+    34,
+    24
+  ],
+  "spawn": [
+    -28,
+    0
+  ],
+  "atlas": [
+    1,
+    0
+  ],
+  "levels": [
+    1,
+    10
+  ],
+  "npcs": [],
+  "monsters": [
+    {
+      "name": "Yabani Köpek",
+      "level": 2,
+      "at": [
+        -15.3,
+        -10.8
+      ],
+      "count": 7,
+      "spread": 7.0,
+      "wander": 3.2,
+      "speed": 3.2,
+      "toughness": 0.85
+    },
+    {
+      "name": "Kurt",
+      "level": 4,
+      "at": [
+        -3.4,
+        10.8
+      ],
+      "count": 8,
+      "spread": 7.6,
+      "wander": 3.4000000000000004,
+      "speed": 3.35,
+      "toughness": 1.0
+    },
+    {
+      "name": "Azgın Domuz",
+      "level": 6,
+      "at": [
+        10.2,
+        -10.8
+      ],
+      "count": 9,
+      "spread": 8.2,
+      "wander": 3.6,
+      "speed": 3.5,
+      "toughness": 1.1
+    },
+    {
+      "name": "Eşkıya",
+      "level": 8,
+      "at": [
+        18.7,
+        8.4
+      ],
+      "count": 10,
+      "spread": 8.8,
+      "wander": 3.8000000000000003,
+      "speed": 3.6500000000000004,
+      "toughness": 1.15
+    },
+    {
+      "name": "Metin Taşı",
+      "level": 1,
+      "at": [
+        -8.5,
+        17.3
+      ],
+      "count": 1,
+      "stone": true
+    },
+    {
+      "name": "Metin Taşı",
+      "level": 4,
+      "at": [
+        20.4,
+        -16.8
+      ],
+      "count": 1,
+      "stone": true
+    },
+    {
+      "name": "Metin Taşı",
+      "level": 7,
+      "at": [
+        5.1,
+        18.7
+      ],
+      "count": 1,
+      "stone": true
+    }
+  ],
+  "portals": [
+    {
+      "to": "umurca_koyu",
+      "at": [
+        -32,
+        0
+      ],
+      "radius": 1.6,
+      "entry": [
+        10,
+        0
+      ]
+    },
+    {
+      "to": "kirklareli_gecidi",
+      "at": [
+        32,
+        0
+      ],
+      "radius": 1.6,
+      "entry": [
+        -28,
+        0
+      ]
+    }
+  ],
+  "boss": {
+    "name": "Ova Reisi",
+    "level": 11,
+    "toughness": 2.6,
+    "at": [
+      24.5,
+      -4.3
+    ]
+  },
+  "altar": {
+    "name": "Umurca Sunağı",
+    "level": 11,
+    "at": [
+      0,
+      -19.7
+    ]
+  }
+}

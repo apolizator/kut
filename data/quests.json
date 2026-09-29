@@ -1,0 +1,624 @@
+{
+ "quests": [
+  {
+   "id": "z00_0",
+   "title": "Yabani Köpek Avı",
+   "desc": "Umurca Ovasi bölgesini Yabani Köpek'dan temizle.",
+   "giver": "",
+   "target": "Yabani Köpek",
+   "count": 12,
+   "gold": 180,
+   "exp": 150,
+   "level": 1
+  },
+  {
+   "id": "z00_2",
+   "title": "Azgın Domuz Avı",
+   "desc": "Umurca Ovasi bölgesini Azgın Domuz'dan temizle.",
+   "giver": "",
+   "target": "Azgın Domuz",
+   "count": 12,
+   "gold": 180,
+   "exp": 150,
+   "level": 5
+  },
+  {
+   "id": "z00_tas",
+   "title": "Taş Kıran",
+   "desc": "Bölgedeki metin taşlarını kır.",
+   "giver": "",
+   "target": "Metin Taşı",
+   "count": 3,
+   "gold": 600,
+   "exp": 700,
+   "level": 3
+  },
+  {
+   "id": "z00_boss",
+   "title": "Ova Reisi'ni Devir",
+   "desc": "Bölgenin efendisini alt et. Kolay olmayacak.",
+   "giver": "",
+   "target": "Ova Reisi",
+   "count": 1,
+   "gold": 2200,
+   "exp": 2600,
+   "level": 7,
+   "bonus": {
+    "attack": 30,
+    "defense": 22,
+    "hp": 400
+   }
+  },
+  {
+   "id": "z01_0",
+   "title": "Aç Kurt Avı",
+   "desc": "Kirklareli Gecidi bölgesini Aç Kurt'dan temizle.",
+   "giver": "",
+   "target": "Aç Kurt",
+   "count": 13,
+   "gold": 342,
+   "exp": 307,
+   "level": 10
+  },
+  {
+   "id": "z01_2",
+   "title": "Mağara Ayısı Avı",
+   "desc": "Kirklareli Gecidi bölgesini Mağara Ayısı'dan temizle.",
+   "giver": "",
+   "target": "Mağara Ayısı",
+   "count": 13,
+   "gold": 342,
+   "exp": 307,
+   "level": 14
+  },
+  {
+   "id": "z01_tas",
+   "title": "Taş Kıran",
+   "desc": "Bölgedeki metin taşlarını kır.",
+   "giver": "",
+   "target": "Metin Taşı",
+   "count": 3,
+   "gold": 1170,
+   "exp": 1470,
+   "level": 12
+  },
+  {
+   "id": "z01_boss",
+   "title": "Geçit Kralı'ni Devir",
+   "desc": "Bölgenin efendisini alt et. Kolay olmayacak.",
+   "giver": "",
+   "target": "Geçit Kralı",
+   "count": 1,
+   "gold": 4400,
+   "exp": 5590,
+   "level": 16,
+   "bonus": {
+    "attack": 85,
+    "defense": 62,
+    "hp": 1300
+   }
+  },
+  {
+   "id": "z02_0",
+   "title": "Orman Kurdu Avı",
+   "desc": "Luleburgaz Ormani bölgesini Orman Kurdu'dan temizle.",
+   "giver": "",
+   "target": "Orman Kurdu",
+   "count": 14,
+   "gold": 649,
+   "exp": 630,
+   "level": 20
+  },
+  {
+   "id": "z02_2",
+   "title": "Orman Devi Avı",
+   "desc": "Luleburgaz Ormani bölgesini Orman Devi'dan temizle.",
+   "giver": "",
+   "target": "Orman Devi",
+   "count": 14,
+   "gold": 649,
+   "exp": 630,
+   "level": 26
+  },
+  {
+   "id": "z02_tas",
+   "title": "Taş Kıran",
+   "desc": "Bölgedeki metin taşlarını kır.",
+   "giver": "",
+   "target": "Metin Taşı",
+   "count": 4,
+   "gold": 2281,
+   "exp": 3087,
+   "level": 22
+  },
+  {
+   "id": "z02_boss",
+   "title": "Orman Ecesi'ni Devir",
+   "desc": "Bölgenin efendisini alt et. Kolay olmayacak.",
+   "giver": "",
+   "target": "Orman Ecesi",
+   "count": 1,
+   "gold": 8800,
+   "exp": 12018,
+   "level": 29,
+   "bonus": {
+    "attack": 140,
+    "defense": 102,
+    "hp": 2200
+   }
+  },
+  {
+   "id": "z03_0",
+   "title": "Harabe Çakalı Avı",
+   "desc": "Vize Harabeleri bölgesini Harabe Çakalı'dan temizle.",
+   "giver": "",
+   "target": "Harabe Çakalı",
+   "count": 15,
+   "gold": 1234,
+   "exp": 1292,
+   "level": 30
+  },
+  {
+   "id": "z03_2",
+   "title": "Taş Golem Avı",
+   "desc": "Vize Harabeleri bölgesini Taş Golem'dan temizle.",
+   "giver": "",
+   "target": "Taş Golem",
+   "count": 15,
+   "gold": 1234,
+   "exp": 1292,
+   "level": 40
+  },
+  {
+   "id": "z03_tas",
+   "title": "Taş Kıran",
+   "desc": "Bölgedeki metin taşlarını kır.",
+   "giver": "",
+   "target": "Metin Taşı",
+   "count": 4,
+   "gold": 4448,
+   "exp": 6482,
+   "level": 33
+  },
+  {
+   "id": "z03_boss",
+   "title": "Harabe Efendisi'ni Devir",
+   "desc": "Bölgenin efendisini alt et. Kolay olmayacak.",
+   "giver": "",
+   "target": "Harabe Efendisi",
+   "count": 1,
+   "gold": 17600,
+   "exp": 25839,
+   "level": 44,
+   "bonus": {
+    "attack": 195,
+    "defense": 142,
+    "hp": 3100
+   }
+  },
+  {
+   "id": "z04_0",
+   "title": "Ejder Yavrusu Avı",
+   "desc": "Ejder Vadisi bölgesini Ejder Yavrusu'dan temizle.",
+   "giver": "",
+   "target": "Ejder Yavrusu",
+   "count": 16,
+   "gold": 2345,
+   "exp": 2649,
+   "level": 45
+  },
+  {
+   "id": "z04_2",
+   "title": "Ejder Muhafızı Avı",
+   "desc": "Ejder Vadisi bölgesini Ejder Muhafızı'dan temizle.",
+   "giver": "",
+   "target": "Ejder Muhafızı",
+   "count": 16,
+   "gold": 2345,
+   "exp": 2649,
+   "level": 57
+  },
+  {
+   "id": "z04_tas",
+   "title": "Taş Kıran",
+   "desc": "Bölgedeki metin taşlarını kır.",
+   "giver": "",
+   "target": "Metin Taşı",
+   "count": 5,
+   "gold": 8675,
+   "exp": 13613,
+   "level": 48
+  },
+  {
+   "id": "z04_boss",
+   "title": "Yaşlı Ejder'ni Devir",
+   "desc": "Bölgenin efendisini alt et. Kolay olmayacak.",
+   "giver": "",
+   "target": "Yaşlı Ejder",
+   "count": 1,
+   "gold": 35200,
+   "exp": 55555,
+   "level": 60,
+   "bonus": {
+    "attack": 250,
+    "defense": 182,
+    "hp": 4000
+   }
+  },
+  {
+   "id": "z05_0",
+   "title": "Kum Çakalı Avı",
+   "desc": "Ates Colu bölgesini Kum Çakalı'dan temizle.",
+   "giver": "",
+   "target": "Kum Çakalı",
+   "count": 17,
+   "gold": 4456,
+   "exp": 5430,
+   "level": 61
+  },
+  {
+   "id": "z05_2",
+   "title": "Magma Devi Avı",
+   "desc": "Ates Colu bölgesini Magma Devi'dan temizle.",
+   "giver": "",
+   "target": "Magma Devi",
+   "count": 17,
+   "gold": 4456,
+   "exp": 5430,
+   "level": 74
+  },
+  {
+   "id": "z05_tas",
+   "title": "Taş Kıran",
+   "desc": "Bölgedeki metin taşlarını kır.",
+   "giver": "",
+   "target": "Metin Taşı",
+   "count": 5,
+   "gold": 16917,
+   "exp": 28588,
+   "level": 64
+  },
+  {
+   "id": "z05_boss",
+   "title": "Alev Sultanı'ni Devir",
+   "desc": "Bölgenin efendisini alt et. Kolay olmayacak.",
+   "giver": "",
+   "target": "Alev Sultanı",
+   "count": 1,
+   "gold": 70400,
+   "exp": 119444,
+   "level": 78,
+   "bonus": {
+    "attack": 305,
+    "defense": 222,
+    "hp": 4900
+   }
+  },
+  {
+   "id": "z06_0",
+   "title": "Buz Kurdu Avı",
+   "desc": "Buz Gecidi bölgesini Buz Kurdu'dan temizle.",
+   "giver": "",
+   "target": "Buz Kurdu",
+   "count": 18,
+   "gold": 8468,
+   "exp": 11133,
+   "level": 79
+  },
+  {
+   "id": "z06_2",
+   "title": "Donmuş Muhafız Avı",
+   "desc": "Buz Gecidi bölgesini Donmuş Muhafız'dan temizle.",
+   "giver": "",
+   "target": "Donmuş Muhafız",
+   "count": 18,
+   "gold": 8468,
+   "exp": 11133,
+   "level": 94
+  },
+  {
+   "id": "z06_tas",
+   "title": "Taş Kıran",
+   "desc": "Bölgedeki metin taşlarını kır.",
+   "giver": "",
+   "target": "Metin Taşı",
+   "count": 6,
+   "gold": 32988,
+   "exp": 60036,
+   "level": 82
+  },
+  {
+   "id": "z06_boss",
+   "title": "Buz Kraliçesi'ni Devir",
+   "desc": "Bölgenin efendisini alt et. Kolay olmayacak.",
+   "giver": "",
+   "target": "Buz Kraliçesi",
+   "count": 1,
+   "gold": 140800,
+   "exp": 256805,
+   "level": 98,
+   "bonus": {
+    "attack": 360,
+    "defense": 262,
+    "hp": 5800
+   }
+  },
+  {
+   "id": "z07_0",
+   "title": "Mağara Yarasası Avı",
+   "desc": "Buz Magarasi bölgesini Mağara Yarasası'dan temizle.",
+   "giver": "",
+   "target": "Mağara Yarasası",
+   "count": 19,
+   "gold": 16089,
+   "exp": 22822,
+   "level": 99
+  },
+  {
+   "id": "z07_2",
+   "title": "Kristal Golem Avı",
+   "desc": "Buz Magarasi bölgesini Kristal Golem'dan temizle.",
+   "giver": "",
+   "target": "Kristal Golem",
+   "count": 19,
+   "gold": 16089,
+   "exp": 22822,
+   "level": 114
+  },
+  {
+   "id": "z07_tas",
+   "title": "Taş Kıran",
+   "desc": "Bölgedeki metin taşlarını kır.",
+   "giver": "",
+   "target": "Metin Taşı",
+   "count": 6,
+   "gold": 64327,
+   "exp": 126076,
+   "level": 102
+  },
+  {
+   "id": "z07_boss",
+   "title": "Mağara Efendisi'ni Devir",
+   "desc": "Bölgenin efendisini alt et. Kolay olmayacak.",
+   "giver": "",
+   "target": "Mağara Efendisi",
+   "count": 1,
+   "gold": 281600,
+   "exp": 552131,
+   "level": 118,
+   "bonus": {
+    "attack": 415,
+    "defense": 302,
+    "hp": 6700
+   }
+  },
+  {
+   "id": "z08_0",
+   "title": "Gölge Çakalı Avı",
+   "desc": "Golge Vadisi bölgesini Gölge Çakalı'dan temizle.",
+   "giver": "",
+   "target": "Gölge Çakalı",
+   "count": 20,
+   "gold": 30570,
+   "exp": 46786,
+   "level": 119
+  },
+  {
+   "id": "z08_2",
+   "title": "Gölge Devi Avı",
+   "desc": "Golge Vadisi bölgesini Gölge Devi'dan temizle.",
+   "giver": "",
+   "target": "Gölge Devi",
+   "count": 20,
+   "gold": 30570,
+   "exp": 46786,
+   "level": 136
+  },
+  {
+   "id": "z08_tas",
+   "title": "Taş Kıran",
+   "desc": "Bölgedeki metin taşlarını kır.",
+   "giver": "",
+   "target": "Metin Taşı",
+   "count": 7,
+   "gold": 125437,
+   "exp": 264760,
+   "level": 122
+  },
+  {
+   "id": "z08_boss",
+   "title": "Gölge Prensi'ni Devir",
+   "desc": "Bölgenin efendisini alt et. Kolay olmayacak.",
+   "giver": "",
+   "target": "Gölge Prensi",
+   "count": 1,
+   "gold": 563200,
+   "exp": 1187082,
+   "level": 141,
+   "bonus": {
+    "attack": 470,
+    "defense": 342,
+    "hp": 7600
+   }
+  },
+  {
+   "id": "z09_0",
+   "title": "Kıyamet Uşağı Avı",
+   "desc": "Kiyamet Diyari bölgesini Kıyamet Uşağı'dan temizle.",
+   "giver": "",
+   "target": "Kıyamet Uşağı",
+   "count": 21,
+   "gold": 58083,
+   "exp": 95912,
+   "level": 144
+  },
+  {
+   "id": "z09_2",
+   "title": "Kadim Muhafız Avı",
+   "desc": "Kiyamet Diyari bölgesini Kadim Muhafız'dan temizle.",
+   "giver": "",
+   "target": "Kadim Muhafız",
+   "count": 21,
+   "gold": 58083,
+   "exp": 95912,
+   "level": 167
+  },
+  {
+   "id": "z09_tas",
+   "title": "Taş Kıran",
+   "desc": "Bölgedeki metin taşlarını kır.",
+   "giver": "",
+   "target": "Metin Taşı",
+   "count": 7,
+   "gold": 244603,
+   "exp": 555996,
+   "level": 147
+  },
+  {
+   "id": "z09_boss",
+   "title": "Kıyamet Efendisi'ni Devir",
+   "desc": "Bölgenin efendisini alt et. Kolay olmayacak.",
+   "giver": "",
+   "target": "Kıyamet Efendisi",
+   "count": 1,
+   "gold": 1126400,
+   "exp": 2552228,
+   "level": 178,
+   "bonus": {
+    "attack": 525,
+    "defense": 382,
+    "hp": 8500
+   }
+  },
+  {
+   "id": "ulu01",
+   "title": "Sunak Avcısı",
+   "desc": "Beş sunağı kır. Her biri bir bölgeyi üstüne çeker.",
+   "giver": "",
+   "target": "Sunak",
+   "count": 5,
+   "gold": 120000,
+   "exp": 260000,
+   "level": 40,
+   "bonus": {
+    "attack": 260,
+    "defense": 200,
+    "hp": 5000,
+    "lifesteal": 0.03
+   }
+  },
+  {
+   "id": "ulu02",
+   "title": "Muhafız Kıran",
+   "desc": "Sunak muhafızlarından iki yüz tanesini yok et.",
+   "giver": "",
+   "target": "Sunak Muhafızı",
+   "count": 200,
+   "gold": 180000,
+   "exp": 420000,
+   "level": 50,
+   "bonus": {
+    "attack": 340,
+    "crit": 0.05,
+    "range": 0.4
+   }
+  },
+  {
+   "id": "ulu03",
+   "title": "Efendi Katili",
+   "desc": "Sunak efendilerinden kırk tanesini devir.",
+   "giver": "",
+   "target": "Sunak Efendisi",
+   "count": 40,
+   "gold": 260000,
+   "exp": 640000,
+   "level": 60,
+   "bonus": {
+    "attack": 480,
+    "defense": 360,
+    "crit_damage": 0.6
+   }
+  },
+  {
+   "id": "ulu04",
+   "title": "Bekçi Kâbusu",
+   "desc": "Metin bekçilerinden beş yüz tanesini temizle.",
+   "giver": "",
+   "target": "Metin Bekçisi",
+   "count": 500,
+   "gold": 150000,
+   "exp": 380000,
+   "level": 45,
+   "bonus": {
+    "hp": 9000,
+    "regen": 0.02
+   }
+  },
+  {
+   "id": "ulu05",
+   "title": "Taş Ustası",
+   "desc": "Kırk metin taşı kır.",
+   "giver": "",
+   "target": "Metin Taşı",
+   "count": 40,
+   "gold": 220000,
+   "exp": 560000,
+   "level": 70,
+   "bonus": {
+    "attack": 400,
+    "defense": 320,
+    "mp": 1500
+   }
+  },
+  {
+   "id": "ulu06",
+   "title": "Kıyametin Sonu",
+   "desc": "Kıyamet Efendisi'ni on kez devir.",
+   "giver": "",
+   "target": "Kıyamet Efendisi",
+   "count": 10,
+   "gold": 900000,
+   "exp": 2400000,
+   "level": 150,
+   "bonus": {
+    "attack": 1500,
+    "defense": 1100,
+    "hp": 40000,
+    "crit_damage": 1.0,
+    "lifesteal": 0.06
+   }
+  },
+  {
+   "id": "ulu07",
+   "title": "Ejder Soyu",
+   "desc": "Yaşlı Ejder'i yirmi kez devir.",
+   "giver": "",
+   "target": "Yaşlı Ejder",
+   "count": 20,
+   "gold": 320000,
+   "exp": 780000,
+   "level": 70,
+   "bonus": {
+    "attack": 560,
+    "range": 0.5,
+    "lifesteal": 0.04
+   }
+  },
+  {
+   "id": "ulu08",
+   "title": "Gölgelerin Efendisi",
+   "desc": "Gölge Prensi'ni on beş kez devir.",
+   "giver": "",
+   "target": "Gölge Prensi",
+   "count": 15,
+   "gold": 620000,
+   "exp": 1500000,
+   "level": 130,
+   "bonus": {
+    "attack": 1050,
+    "defense": 800,
+    "hp": 26000
+   }
+  }
+ ]
+}

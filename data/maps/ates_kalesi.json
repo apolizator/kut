@@ -1,0 +1,75 @@
+{
+  "id": "ates_kalesi",
+  "name": "Ateş Kalesi",
+  "safe": true,
+  "seed": 188,
+  "extent": [
+    18,
+    13
+  ],
+  "spawn": [
+    -12,
+    0
+  ],
+  "atlas": [
+    0,
+    2
+  ],
+  "levels": [
+    62,
+    62
+  ],
+  "npcs": [
+    {
+      "name": "Ateş Ustası",
+      "at": [
+        0,
+        -6
+      ],
+      "role": "both"
+    },
+    {
+      "name": "Çöl Tüccarı",
+      "at": [
+        -7,
+        4
+      ],
+      "role": "both"
+    },
+    {
+      "name": "Nalbant Kerim",
+      "at": [
+        9,
+        3
+      ],
+      "role": "both"
+    }
+  ],
+  "monsters": [],
+  "portals": [
+    {
+      "to": "ejder_vadisi",
+      "at": [
+        -16,
+        0
+      ],
+      "radius": 1.6,
+      "entry": [
+        29,
+        0
+      ]
+    },
+    {
+      "to": "ates_colu",
+      "at": [
+        16,
+        0
+      ],
+      "radius": 1.6,
+      "entry": [
+        -34,
+        0
+      ]
+    }
+  ]
+}

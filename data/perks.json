@@ -1,0 +1,259 @@
+{
+ "perks": [
+  {
+   "id": "p01",
+   "name": "Çelik Bilek",
+   "desc": "Saldırı gücü +30",
+   "cost": 700,
+   "level": 3,
+   "bonus": {
+    "attack": 30
+   }
+  },
+  {
+   "id": "p02",
+   "name": "Sağlam Duruş",
+   "desc": "Zırh +25",
+   "cost": 900,
+   "level": 5,
+   "bonus": {
+    "defense": 25
+   }
+  },
+  {
+   "id": "p03",
+   "name": "Geniş Göğüs",
+   "desc": "Can +500",
+   "cost": 1200,
+   "level": 7,
+   "bonus": {
+    "hp": 500
+   }
+  },
+  {
+   "id": "p04",
+   "name": "Uzun Kol",
+   "desc": "Saldırı menzili +0.5",
+   "cost": 1600,
+   "level": 9,
+   "bonus": {
+    "range": 0.5
+   }
+  },
+  {
+   "id": "p05",
+   "name": "Kanlı Pençe",
+   "desc": "Can çalma +%3",
+   "cost": 2200,
+   "level": 11,
+   "bonus": {
+    "lifesteal": 0.03
+   }
+  },
+  {
+   "id": "p06",
+   "name": "Demir Yumruk",
+   "desc": "Saldırı gücü +70",
+   "cost": 2900,
+   "level": 13,
+   "bonus": {
+    "attack": 70
+   }
+  },
+  {
+   "id": "p07",
+   "name": "Zırh Ustası",
+   "desc": "Zırh +60",
+   "cost": 3600,
+   "level": 15,
+   "bonus": {
+    "defense": 60
+   }
+  },
+  {
+   "id": "p08",
+   "name": "Derin Nefes",
+   "desc": "Can +1400, Yenilenme +%1",
+   "cost": 4500,
+   "level": 17,
+   "bonus": {
+    "hp": 1400,
+    "regen": 0.01
+   }
+  },
+  {
+   "id": "p09",
+   "name": "Keskin Bakış",
+   "desc": "Kritik şansı +%4",
+   "cost": 5600,
+   "level": 19,
+   "bonus": {
+    "crit": 0.04
+   }
+  },
+  {
+   "id": "p10",
+   "name": "Hızlı Bilek",
+   "desc": "Saldırı hızı +%7",
+   "cost": 6900,
+   "level": 21,
+   "bonus": {
+    "attack_speed": 0.07
+   }
+  },
+  {
+   "id": "p11",
+   "name": "Ejder Kolu",
+   "desc": "Saldırı +150, Menzil +0.4",
+   "cost": 8500,
+   "level": 24,
+   "bonus": {
+    "attack": 150,
+    "range": 0.4
+   }
+  },
+  {
+   "id": "p12",
+   "name": "Taş Deri",
+   "desc": "Zırh +130",
+   "cost": 10400,
+   "level": 26,
+   "bonus": {
+    "defense": 130
+   }
+  },
+  {
+   "id": "p13",
+   "name": "Kan Pınarı",
+   "desc": "Can çalma +%5, Can +2000",
+   "cost": 12800,
+   "level": 28,
+   "bonus": {
+    "lifesteal": 0.05,
+    "hp": 2000
+   }
+  },
+  {
+   "id": "p14",
+   "name": "Yıldırım Ayak",
+   "desc": "Hareket +0.6, Saldırı hızı +%6",
+   "cost": 15600,
+   "level": 31,
+   "bonus": {
+    "move_speed": 0.6,
+    "attack_speed": 0.06
+   }
+  },
+  {
+   "id": "p15",
+   "name": "Ölüm Fısıltısı",
+   "desc": "Kritik hasarı +%45",
+   "cost": 19000,
+   "level": 34,
+   "bonus": {
+    "crit_damage": 0.45
+   }
+  },
+  {
+   "id": "p16",
+   "name": "Zırh Kıran",
+   "desc": "Delici vuruş +%8",
+   "cost": 23000,
+   "level": 37,
+   "bonus": {
+    "pierce": 0.08
+   }
+  },
+  {
+   "id": "p17",
+   "name": "Devin Kalbi",
+   "desc": "Can +5000",
+   "cost": 28000,
+   "level": 40,
+   "bonus": {
+    "hp": 5000
+   }
+  },
+  {
+   "id": "p18",
+   "name": "Savaş Bilgesi",
+   "desc": "Deneyim +%20, Altın +%20",
+   "cost": 34000,
+   "level": 43,
+   "bonus": {
+    "exp": 0.2,
+    "gold": 0.2
+   }
+  },
+  {
+   "id": "p19",
+   "name": "Ejder Kanı",
+   "desc": "Saldırı +320, Zırh +240",
+   "cost": 42000,
+   "level": 46,
+   "bonus": {
+    "attack": 320,
+    "defense": 240
+   }
+  },
+  {
+   "id": "p20",
+   "name": "Kadim Güç",
+   "desc": "Her şeyden: Saldırı +420, Zırh +320, Can +7000, Kritik +%5",
+   "cost": 56000,
+   "level": 50,
+   "bonus": {
+    "attack": 420,
+    "defense": 320,
+    "hp": 7000,
+    "crit": 0.05
+   }
+  },
+  {
+   "id": "p21",
+   "name": "Sonsuz Kuyu",
+   "desc": "Mana +1200, Mana yenilenme +%40",
+   "cost": 68000,
+   "level": 53,
+   "bonus": {
+    "mp": 1200,
+    "mp_regen": 0.4
+   }
+  },
+  {
+   "id": "p22",
+   "name": "Efsanenin Elleri",
+   "desc": "Saldırı +600, Can çalma +%8",
+   "cost": 84000,
+   "level": 56,
+   "bonus": {
+    "attack": 600,
+    "lifesteal": 0.08
+   }
+  },
+  {
+   "id": "p23",
+   "name": "Ejder Tacı",
+   "desc": "Zırh +450, Can +12000",
+   "cost": 102000,
+   "level": 58,
+   "bonus": {
+    "defense": 450,
+    "hp": 12000
+   }
+  },
+  {
+   "id": "p24",
+   "name": "Tanrı Vergisi",
+   "desc": "Saldırı +900, Zırh +600, Can +18000, Kritik hasarı +%80",
+   "cost": 140000,
+   "level": 60,
+   "bonus": {
+    "attack": 900,
+    "defense": 600,
+    "hp": 18000,
+    "crit_damage": 0.8
+   }
+  }
+ ]
+}

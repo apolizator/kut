@@ -1,0 +1,75 @@
+{
+  "id": "kuzey_kalesi",
+  "name": "Kuzey Kalesi",
+  "safe": true,
+  "seed": 221,
+  "extent": [
+    18,
+    13
+  ],
+  "spawn": [
+    -12,
+    0
+  ],
+  "atlas": [
+    3,
+    2
+  ],
+  "levels": [
+    100,
+    100
+  ],
+  "npcs": [
+    {
+      "name": "Kuzey Beyi",
+      "at": [
+        0,
+        -6
+      ],
+      "role": "both"
+    },
+    {
+      "name": "Kürkçü Naciye",
+      "at": [
+        -7,
+        4
+      ],
+      "role": "both"
+    },
+    {
+      "name": "Buz Ustası",
+      "at": [
+        9,
+        3
+      ],
+      "role": "both"
+    }
+  ],
+  "monsters": [],
+  "portals": [
+    {
+      "to": "buz_gecidi",
+      "at": [
+        -16,
+        0
+      ],
+      "radius": 1.6,
+      "entry": [
+        32,
+        0
+      ]
+    },
+    {
+      "to": "buz_magarasi",
+      "at": [
+        16,
+        0
+      ],
+      "radius": 1.6,
+      "entry": [
+        -37,
+        0
+      ]
+    }
+  ]
+}

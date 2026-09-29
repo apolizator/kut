@@ -1,0 +1,150 @@
+{
+  "id": "buz_magarasi",
+  "name": "Buz Mağarası",
+  "safe": false,
+  "seed": 232,
+  "extent": [
+    43,
+    30
+  ],
+  "spawn": [
+    -37,
+    0
+  ],
+  "atlas": [
+    3,
+    3
+  ],
+  "levels": [
+    100,
+    118
+  ],
+  "npcs": [],
+  "monsters": [
+    {
+      "name": "Mağara Yarasası",
+      "level": 100,
+      "at": [
+        -19.4,
+        -13.5
+      ],
+      "count": 7,
+      "spread": 7.0,
+      "wander": 3.2,
+      "speed": 3.2,
+      "toughness": 1.3
+    },
+    {
+      "name": "Buz Örümceği",
+      "level": 107,
+      "at": [
+        -4.3,
+        13.5
+      ],
+      "count": 8,
+      "spread": 7.6,
+      "wander": 3.4000000000000004,
+      "speed": 3.35,
+      "toughness": 1.65
+    },
+    {
+      "name": "Kristal Golem",
+      "level": 115,
+      "at": [
+        12.9,
+        -13.5
+      ],
+      "count": 9,
+      "spread": 8.2,
+      "wander": 3.6,
+      "speed": 3.5,
+      "toughness": 2.0
+    },
+    {
+      "name": "Donuk Kâhin",
+      "level": 117,
+      "at": [
+        23.7,
+        10.5
+      ],
+      "count": 10,
+      "spread": 8.8,
+      "wander": 3.8000000000000003,
+      "speed": 3.6500000000000004,
+      "toughness": 1.7
+    },
+    {
+      "name": "Metin Taşı",
+      "level": 100,
+      "at": [
+        -10.8,
+        21.6
+      ],
+      "count": 1,
+      "stone": true
+    },
+    {
+      "name": "Metin Taşı",
+      "level": 106,
+      "at": [
+        25.8,
+        -21.0
+      ],
+      "count": 1,
+      "stone": true
+    },
+    {
+      "name": "Metin Taşı",
+      "level": 112,
+      "at": [
+        6.5,
+        23.4
+      ],
+      "count": 1,
+      "stone": true
+    }
+  ],
+  "portals": [
+    {
+      "to": "kuzey_kalesi",
+      "at": [
+        -41,
+        0
+      ],
+      "radius": 1.6,
+      "entry": [
+        10,
+        0
+      ]
+    },
+    {
+      "to": "golge_vadisi",
+      "at": [
+        41,
+        0
+      ],
+      "radius": 1.6,
+      "entry": [
+        -37,
+        0
+      ]
+    }
+  ],
+  "boss": {
+    "name": "Mağara Efendisi",
+    "level": 122,
+    "toughness": 3.3,
+    "at": [
+      31.0,
+      -5.4
+    ]
+  },
+  "altar": {
+    "name": "Buz Sunağı",
+    "level": 122,
+    "at": [
+      0,
+      -24.6
+    ]
+  }
+}

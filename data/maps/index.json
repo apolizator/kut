@@ -1,0 +1,21 @@
+{
+  "maps": [
+    "umurca_koyu",
+    "umurca_ovasi",
+    "kirklareli_gecidi",
+    "luleburgaz",
+    "luleburgaz_ormani",
+    "vize_kalesi",
+    "vize_harabeleri",
+    "ejder_vadisi",
+    "ates_kalesi",
+    "ates_colu",
+    "buz_gecidi",
+    "kuzey_kalesi",
+    "buz_magarasi",
+    "golge_vadisi",
+    "kadim_sehir",
+    "kiyamet_diyari"
+  ],
+  "start": "umurca_koyu"
+}

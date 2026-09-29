@@ -1,0 +1,138 @@
+{
+  "id": "kiyamet_diyari",
+  "name": "Kıyamet Diyarı",
+  "safe": false,
+  "seed": 265,
+  "extent": [
+    43,
+    30
+  ],
+  "spawn": [
+    -37,
+    0
+  ],
+  "atlas": [
+    0,
+    3
+  ],
+  "levels": [
+    145,
+    175
+  ],
+  "npcs": [],
+  "monsters": [
+    {
+      "name": "Kıyamet Uşağı",
+      "level": 145,
+      "at": [
+        -19.4,
+        -13.5
+      ],
+      "count": 7,
+      "spread": 7.0,
+      "wander": 3.2,
+      "speed": 3.2,
+      "toughness": 1.4
+    },
+    {
+      "name": "Yıkım Devi",
+      "level": 155,
+      "at": [
+        -4.3,
+        13.5
+      ],
+      "count": 8,
+      "spread": 7.6,
+      "wander": 3.4000000000000004,
+      "speed": 3.35,
+      "toughness": 1.85
+    },
+    {
+      "name": "Kadim Muhafız",
+      "level": 168,
+      "at": [
+        12.9,
+        -13.5
+      ],
+      "count": 9,
+      "spread": 8.2,
+      "wander": 3.6,
+      "speed": 3.5,
+      "toughness": 2.2
+    },
+    {
+      "name": "Kıyamet Kâhini",
+      "level": 172,
+      "at": [
+        23.7,
+        10.5
+      ],
+      "count": 10,
+      "spread": 8.8,
+      "wander": 3.8000000000000003,
+      "speed": 3.6500000000000004,
+      "toughness": 1.95
+    },
+    {
+      "name": "Metin Taşı",
+      "level": 145,
+      "at": [
+        -10.8,
+        21.6
+      ],
+      "count": 1,
+      "stone": true
+    },
+    {
+      "name": "Metin Taşı",
+      "level": 155,
+      "at": [
+        25.8,
+        -21.0
+      ],
+      "count": 1,
+      "stone": true
+    },
+    {
+      "name": "Metin Taşı",
+      "level": 165,
+      "at": [
+        6.5,
+        23.4
+      ],
+      "count": 1,
+      "stone": true
+    }
+  ],
+  "portals": [
+    {
+      "to": "kadim_sehir",
+      "at": [
+        -41,
+        0
+      ],
+      "radius": 1.6,
+      "entry": [
+        10,
+        0
+      ]
+    }
+  ],
+  "boss": {
+    "name": "Kıyamet Efendisi",
+    "level": 182,
+    "toughness": 3.6,
+    "at": [
+      31.0,
+      -5.4
+    ]
+  },
+  "altar": {
+    "name": "Kıyamet Sunağı",
+    "level": 182,
+    "at": [
+      0,
+      -24.6
+    ]
+  }
+}

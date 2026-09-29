@@ -1,0 +1,913 @@
+{
+ "skills": [
+  {
+   "id": "kaba_kuvvet",
+   "name": "Kaba Kuvvet",
+   "desc": "Saldırı +8",
+   "cost": 150,
+   "max": 10,
+   "attack": 8,
+   "requires": [],
+   "full": {
+    "attack": 20
+   }
+  },
+  {
+   "id": "sert_deri",
+   "name": "Sert Deri",
+   "desc": "Zırh +7",
+   "cost": 150,
+   "max": 10,
+   "defense": 7,
+   "requires": [],
+   "full": {
+    "defense": 18
+   }
+  },
+  {
+   "id": "dayaniklilik",
+   "name": "Dayanıklılık",
+   "desc": "Can +120",
+   "cost": 160,
+   "max": 10,
+   "hp": 120,
+   "requires": [],
+   "full": {
+    "hp": 320
+   }
+  },
+  {
+   "id": "cevik_ayak",
+   "name": "Çevik Ayak",
+   "desc": "Hareket +0.15",
+   "cost": 170,
+   "max": 10,
+   "move_speed": 0.15,
+   "requires": [],
+   "full": {
+    "move_speed": 0.3
+   }
+  },
+  {
+   "id": "hizli_el",
+   "name": "Hızlı El",
+   "desc": "Saldırı hızı +%4",
+   "cost": 180,
+   "max": 10,
+   "attack_speed": 0.04,
+   "requires": [],
+   "full": {
+    "attack_speed": 0.08
+   }
+  },
+  {
+   "id": "acgozluluk",
+   "name": "Açgözlülük",
+   "desc": "Altın +%7",
+   "cost": 160,
+   "max": 10,
+   "gold": 0.07,
+   "requires": [],
+   "full": {
+    "gold": 0.15
+   }
+  },
+  {
+   "id": "agir_darbe",
+   "name": "Ağır Darbe",
+   "desc": "Saldırı +18",
+   "cost": 420,
+   "max": 10,
+   "attack": 18,
+   "requires": [
+    "kaba_kuvvet"
+   ],
+   "full": {
+    "attack": 45
+   }
+  },
+  {
+   "id": "kalkan_duvari",
+   "name": "Kalkan Duvarı",
+   "desc": "Zırh +14, Can +150",
+   "cost": 430,
+   "max": 10,
+   "defense": 14,
+   "hp": 150,
+   "requires": [
+    "sert_deri"
+   ],
+   "full": {
+    "defense": 35
+   }
+  },
+  {
+   "id": "demir_beden",
+   "name": "Demir Beden",
+   "desc": "Can +280",
+   "cost": 440,
+   "max": 10,
+   "hp": 280,
+   "requires": [
+    "dayaniklilik"
+   ],
+   "full": {
+    "hp": 700
+   }
+  },
+  {
+   "id": "ruzgar_adim",
+   "name": "Rüzgâr Adımı",
+   "desc": "Hareket +0.25",
+   "cost": 460,
+   "max": 8,
+   "move_speed": 0.25,
+   "requires": [
+    "cevik_ayak"
+   ],
+   "full": {
+    "move_speed": 0.5
+   }
+  },
+  {
+   "id": "seri_vurus",
+   "name": "Seri Vuruş",
+   "desc": "Saldırı hızı +%6",
+   "cost": 480,
+   "max": 8,
+   "attack_speed": 0.06,
+   "requires": [
+    "hizli_el"
+   ],
+   "full": {
+    "attack_speed": 0.12
+   }
+  },
+  {
+   "id": "tecrube",
+   "name": "Tecrübe",
+   "desc": "Deneyim +%8",
+   "cost": 450,
+   "max": 10,
+   "exp": 0.08,
+   "requires": [
+    "acgozluluk"
+   ],
+   "full": {
+    "exp": 0.2
+   }
+  },
+  {
+   "id": "keskin_goz",
+   "name": "Keskin Göz",
+   "desc": "Kritik şansı +%2.5",
+   "cost": 1100,
+   "max": 10,
+   "crit": 0.025,
+   "requires": [
+    "agir_darbe"
+   ],
+   "full": {
+    "crit": 0.06
+   }
+  },
+  {
+   "id": "cetin_ceviz",
+   "name": "Çetin Ceviz",
+   "desc": "Zırh +30",
+   "cost": 1050,
+   "max": 10,
+   "defense": 30,
+   "requires": [
+    "kalkan_duvari"
+   ],
+   "full": {
+    "defense": 75
+   }
+  },
+  {
+   "id": "dev_govde",
+   "name": "Dev Gövde",
+   "desc": "Can +620",
+   "cost": 1100,
+   "max": 10,
+   "hp": 620,
+   "requires": [
+    "demir_beden"
+   ],
+   "full": {
+    "hp": 1500
+   }
+  },
+  {
+   "id": "firtina",
+   "name": "Fırtına",
+   "desc": "Hareket +0.35",
+   "cost": 1200,
+   "max": 8,
+   "move_speed": 0.35,
+   "requires": [
+    "ruzgar_adim"
+   ],
+   "full": {
+    "move_speed": 0.7
+   }
+  },
+  {
+   "id": "yildirim",
+   "name": "Yıldırım",
+   "desc": "Saldırı hızı +%8",
+   "cost": 1250,
+   "max": 8,
+   "attack_speed": 0.08,
+   "requires": [
+    "seri_vurus"
+   ],
+   "full": {
+    "attack_speed": 0.16
+   }
+  },
+  {
+   "id": "ganimet_gozu",
+   "name": "Ganimet Gözü",
+   "desc": "Ganimet +%6",
+   "cost": 1150,
+   "max": 10,
+   "drop": 0.06,
+   "requires": [
+    "tecrube"
+   ],
+   "full": {
+    "drop": 0.15
+   }
+  },
+  {
+   "id": "olumcul_darbe",
+   "name": "Ölümcül Darbe",
+   "desc": "Kritik hasarı +%28",
+   "cost": 2800,
+   "max": 10,
+   "crit_damage": 0.28,
+   "requires": [
+    "keskin_goz"
+   ],
+   "full": {
+    "crit_damage": 0.7
+   }
+  },
+  {
+   "id": "kale",
+   "name": "Kale",
+   "desc": "Zırh +62",
+   "cost": 2700,
+   "max": 10,
+   "defense": 62,
+   "requires": [
+    "cetin_ceviz"
+   ],
+   "full": {
+    "defense": 150
+   }
+  },
+  {
+   "id": "devasa",
+   "name": "Devasa",
+   "desc": "Can +1300",
+   "cost": 2800,
+   "max": 10,
+   "hp": 1300,
+   "requires": [
+    "dev_govde"
+   ],
+   "full": {
+    "hp": 3200
+   }
+  },
+  {
+   "id": "isinlanma",
+   "name": "Işınlanma",
+   "desc": "Hareket +0.5",
+   "cost": 3000,
+   "max": 6,
+   "move_speed": 0.5,
+   "requires": [
+    "firtina"
+   ],
+   "full": {
+    "move_speed": 1.0
+   }
+  },
+  {
+   "id": "simsek",
+   "name": "Şimşek",
+   "desc": "Saldırı hızı +%11",
+   "cost": 3100,
+   "max": 6,
+   "attack_speed": 0.11,
+   "requires": [
+    "yildirim"
+   ],
+   "full": {
+    "attack_speed": 0.22
+   }
+  },
+  {
+   "id": "hazine_avcisi",
+   "name": "Hazine Avcısı",
+   "desc": "Altın +%15, Ganimet +%8",
+   "cost": 2900,
+   "max": 8,
+   "gold": 0.15,
+   "drop": 0.08,
+   "requires": [
+    "ganimet_gozu"
+   ],
+   "full": {
+    "gold": 0.35
+   }
+  },
+  {
+   "id": "katil",
+   "name": "Katil",
+   "desc": "Kritik hasarı +%40, Saldırı +40",
+   "cost": 7000,
+   "max": 8,
+   "crit_damage": 0.4,
+   "attack": 40,
+   "requires": [
+    "olumcul_darbe"
+   ],
+   "full": {
+    "crit": 0.05
+   }
+  },
+  {
+   "id": "granit",
+   "name": "Granit",
+   "desc": "Zırh +95, Can +900",
+   "cost": 6800,
+   "max": 8,
+   "defense": 95,
+   "hp": 900,
+   "requires": [
+    "kale"
+   ],
+   "full": {
+    "defense": 220
+   }
+  },
+  {
+   "id": "ejder_kani",
+   "name": "Ejder Kanı",
+   "desc": "Can +2600, Yenilenme +%2",
+   "cost": 6900,
+   "max": 8,
+   "hp": 2600,
+   "regen": 0.02,
+   "requires": [
+    "devasa"
+   ],
+   "full": {
+    "hp": 6000
+   }
+  },
+  {
+   "id": "zaman_ustasi",
+   "name": "Zaman Ustası",
+   "desc": "Saldırı hızı +%14, Hareket +0.4",
+   "cost": 7600,
+   "max": 6,
+   "attack_speed": 0.14,
+   "move_speed": 0.4,
+   "requires": [
+    "simsek",
+    "isinlanma"
+   ],
+   "full": {
+    "attack_speed": 0.28
+   }
+  },
+  {
+   "id": "usta_savasci",
+   "name": "Usta Savaşçı",
+   "desc": "Saldırı +70, Zırh +50, Can +800",
+   "cost": 8200,
+   "max": 6,
+   "attack": 70,
+   "defense": 50,
+   "hp": 800,
+   "requires": [
+    "olumcul_darbe",
+    "kale"
+   ],
+   "full": {
+    "attack": 160
+   }
+  },
+  {
+   "id": "kral",
+   "name": "Kral",
+   "desc": "Altın +%25, Deneyim +%25, Ganimet +%12",
+   "cost": 7800,
+   "max": 6,
+   "gold": 0.25,
+   "exp": 0.25,
+   "drop": 0.12,
+   "requires": [
+    "hazine_avcisi"
+   ],
+   "full": {
+    "exp": 0.5
+   }
+  },
+  {
+   "id": "celik_bilek",
+   "name": "Çelik Bilek",
+   "desc": "Saldırı +9",
+   "cost": 170,
+   "max": 10,
+   "attack": 9,
+   "requires": [],
+   "full": {
+    "attack": 26
+   }
+  },
+  {
+   "id": "kalin_post",
+   "name": "Kalın Post",
+   "desc": "Zırh +8",
+   "cost": 165,
+   "max": 10,
+   "defense": 8,
+   "requires": [],
+   "full": {
+    "defense": 22
+   }
+  },
+  {
+   "id": "genis_gogus",
+   "name": "Geniş Göğüs",
+   "desc": "Can +140",
+   "cost": 175,
+   "max": 10,
+   "hp": 140,
+   "requires": [],
+   "full": {
+    "hp": 380
+   }
+  },
+  {
+   "id": "uzun_kol",
+   "name": "Uzun Kol",
+   "desc": "Menzil +0.12",
+   "cost": 240,
+   "max": 8,
+   "range": 0.12,
+   "requires": [],
+   "full": {
+    "range": 0.3
+   }
+  },
+  {
+   "id": "kanli_pence",
+   "name": "Kanlı Pençe",
+   "desc": "Can çalma +%0.6",
+   "cost": 260,
+   "max": 8,
+   "lifesteal": 0.006,
+   "requires": [],
+   "full": {
+    "lifesteal": 0.02
+   }
+  },
+  {
+   "id": "ic_huzur",
+   "name": "İç Huzur",
+   "desc": "Mana +90, Mana yenilenme +%5",
+   "cost": 190,
+   "max": 10,
+   "mp": 90,
+   "mp_regen": 0.05,
+   "requires": [],
+   "full": {
+    "mp": 260
+   }
+  },
+  {
+   "id": "demir_yumruk",
+   "name": "Demir Yumruk",
+   "desc": "Saldırı +22",
+   "cost": 460,
+   "max": 10,
+   "attack": 22,
+   "requires": [
+    "celik_bilek"
+   ],
+   "full": {
+    "attack": 60
+   }
+  },
+  {
+   "id": "tas_post",
+   "name": "Taş Post",
+   "desc": "Zırh +18",
+   "cost": 450,
+   "max": 10,
+   "defense": 18,
+   "requires": [
+    "kalin_post"
+   ],
+   "full": {
+    "defense": 48
+   }
+  },
+  {
+   "id": "dev_ciger",
+   "name": "Dev Ciğer",
+   "desc": "Can +340",
+   "cost": 470,
+   "max": 10,
+   "hp": 340,
+   "requires": [
+    "genis_gogus"
+   ],
+   "full": {
+    "hp": 900
+   }
+  },
+  {
+   "id": "mizrak_kol",
+   "name": "Mızrak Kolu",
+   "desc": "Menzil +0.2, Saldırı +14",
+   "cost": 520,
+   "max": 6,
+   "range": 0.2,
+   "attack": 14,
+   "requires": [
+    "uzun_kol"
+   ],
+   "full": {
+    "range": 0.45
+   }
+  },
+  {
+   "id": "kan_susuzlugu",
+   "name": "Kan Susuzluğu",
+   "desc": "Can çalma +%1",
+   "cost": 540,
+   "max": 8,
+   "lifesteal": 0.01,
+   "requires": [
+    "kanli_pence"
+   ],
+   "full": {
+    "lifesteal": 0.035
+   }
+  },
+  {
+   "id": "derin_kuyu",
+   "name": "Derin Kuyu",
+   "desc": "Mana +220, Yenilenme +%8",
+   "cost": 480,
+   "max": 10,
+   "mp": 220,
+   "mp_regen": 0.08,
+   "requires": [
+    "ic_huzur"
+   ],
+   "full": {
+    "mp": 600
+   }
+  },
+  {
+   "id": "cekic_darbe",
+   "name": "Çekiç Darbesi",
+   "desc": "Saldırı +48",
+   "cost": 1150,
+   "max": 10,
+   "attack": 48,
+   "requires": [
+    "demir_yumruk"
+   ],
+   "full": {
+    "attack": 130
+   }
+  },
+  {
+   "id": "granit_post",
+   "name": "Granit Post",
+   "desc": "Zırh +38",
+   "cost": 1120,
+   "max": 10,
+   "defense": 38,
+   "requires": [
+    "tas_post"
+   ],
+   "full": {
+    "defense": 100
+   }
+  },
+  {
+   "id": "titan_ciger",
+   "name": "Titan Ciğeri",
+   "desc": "Can +820",
+   "cost": 1180,
+   "max": 10,
+   "hp": 820,
+   "requires": [
+    "dev_ciger"
+   ],
+   "full": {
+    "hp": 2100
+   }
+  },
+  {
+   "id": "kargi_kol",
+   "name": "Kargı Kolu",
+   "desc": "Menzil +0.3",
+   "cost": 1300,
+   "max": 6,
+   "range": 0.3,
+   "requires": [
+    "mizrak_kol"
+   ],
+   "full": {
+    "range": 0.7
+   }
+  },
+  {
+   "id": "kan_selı",
+   "name": "Kan Seli",
+   "desc": "Can çalma +%1.6",
+   "cost": 1350,
+   "max": 8,
+   "lifesteal": 0.016,
+   "requires": [
+    "kan_susuzlugu"
+   ],
+   "full": {
+    "lifesteal": 0.055
+   }
+  },
+  {
+   "id": "buyu_kuyusu",
+   "name": "Büyü Kuyusu",
+   "desc": "Mana +520, Yenilenme +%12",
+   "cost": 1200,
+   "max": 10,
+   "mp": 520,
+   "mp_regen": 0.12,
+   "requires": [
+    "derin_kuyu"
+   ],
+   "full": {
+    "mp": 1400
+   }
+  },
+  {
+   "id": "balyoz",
+   "name": "Balyoz",
+   "desc": "Saldırı +120",
+   "cost": 2900,
+   "max": 10,
+   "attack": 120,
+   "requires": [
+    "cekic_darbe"
+   ],
+   "full": {
+    "attack": 320
+   }
+  },
+  {
+   "id": "elmas_post",
+   "name": "Elmas Post",
+   "desc": "Zırh +95",
+   "cost": 2850,
+   "max": 10,
+   "defense": 95,
+   "requires": [
+    "granit_post"
+   ],
+   "full": {
+    "defense": 240
+   }
+  },
+  {
+   "id": "ejder_ciger",
+   "name": "Ejder Ciğeri",
+   "desc": "Can +2100",
+   "cost": 2950,
+   "max": 10,
+   "hp": 2100,
+   "requires": [
+    "titan_ciger"
+   ],
+   "full": {
+    "hp": 5400
+   }
+  },
+  {
+   "id": "ejder_kol",
+   "name": "Ejder Kolu",
+   "desc": "Menzil +0.45, Saldırı +90",
+   "cost": 3200,
+   "max": 6,
+   "range": 0.45,
+   "attack": 90,
+   "requires": [
+    "kargi_kol"
+   ],
+   "full": {
+    "range": 1.0
+   }
+  },
+  {
+   "id": "kan_efendisi",
+   "name": "Kan Efendisi",
+   "desc": "Can çalma +%2.5",
+   "cost": 3400,
+   "max": 8,
+   "lifesteal": 0.025,
+   "requires": [
+    "kan_selı"
+   ],
+   "full": {
+    "lifesteal": 0.09
+   }
+  },
+  {
+   "id": "kadim_kuyu",
+   "name": "Kadim Kuyu",
+   "desc": "Mana +1300, Yenilenme +%18",
+   "cost": 3000,
+   "max": 10,
+   "mp": 1300,
+   "mp_regen": 0.18,
+   "requires": [
+    "buyu_kuyusu"
+   ],
+   "full": {
+    "mp": 3600
+   }
+  },
+  {
+   "id": "tanri_cekici",
+   "name": "Tanrı Çekici",
+   "desc": "Saldırı +340",
+   "cost": 7200,
+   "max": 8,
+   "attack": 340,
+   "requires": [
+    "balyoz"
+   ],
+   "full": {
+    "attack": 900
+   }
+  },
+  {
+   "id": "tanri_kalkani",
+   "name": "Tanrı Kalkanı",
+   "desc": "Zırh +260, Can +2200",
+   "cost": 7100,
+   "max": 8,
+   "defense": 260,
+   "hp": 2200,
+   "requires": [
+    "elmas_post"
+   ],
+   "full": {
+    "defense": 650
+   }
+  },
+  {
+   "id": "olumsuz_beden",
+   "name": "Ölümsüz Beden",
+   "desc": "Can +6200",
+   "cost": 7300,
+   "max": 8,
+   "hp": 6200,
+   "requires": [
+    "ejder_ciger"
+   ],
+   "full": {
+    "hp": 16000
+   }
+  },
+  {
+   "id": "sonsuz_kol",
+   "name": "Sonsuz Kol",
+   "desc": "Menzil +0.7, Saldırı +240",
+   "cost": 7900,
+   "max": 5,
+   "range": 0.7,
+   "attack": 240,
+   "requires": [
+    "ejder_kol"
+   ],
+   "full": {
+    "range": 1.6
+   }
+  },
+  {
+   "id": "kan_tanrisi",
+   "name": "Kan Tanrısı",
+   "desc": "Can çalma +%4",
+   "cost": 8300,
+   "max": 6,
+   "lifesteal": 0.04,
+   "requires": [
+    "kan_efendisi"
+   ],
+   "full": {
+    "lifesteal": 0.15
+   }
+  },
+  {
+   "id": "sonsuz_kuyu",
+   "name": "Sonsuz Kuyu",
+   "desc": "Mana +3400, Yenilenme +%30",
+   "cost": 7500,
+   "max": 8,
+   "mp": 3400,
+   "mp_regen": 0.3,
+   "requires": [
+    "kadim_kuyu"
+   ],
+   "full": {
+    "mp": 9000
+   }
+  }
+ ],
+ "tiers": [
+  {
+   "unlock": {
+    "attack": 25,
+    "defense": 20,
+    "mp": 150
+   },
+   "master": {
+    "attack": 90,
+    "defense": 70,
+    "hp": 900,
+    "range": 0.2
+   }
+  },
+  {
+   "unlock": {
+    "hp": 700,
+    "attack_speed": 0.05
+   },
+   "master": {
+    "hp": 2200,
+    "attack": 170,
+    "attack_speed": 0.12,
+    "lifesteal": 0.02
+   }
+  },
+  {
+   "unlock": {
+    "crit": 0.05,
+    "move_speed": 0.3
+   },
+   "master": {
+    "crit": 0.12,
+    "crit_damage": 0.7,
+    "move_speed": 0.8,
+    "range": 0.4
+   }
+  },
+  {
+   "unlock": {
+    "attack": 220,
+    "defense": 170
+   },
+   "master": {
+    "attack": 600,
+    "defense": 450,
+    "hp": 7000,
+    "lifesteal": 0.04
+   }
+  },
+  {
+   "unlock": {
+    "exp": 0.25,
+    "gold": 0.25,
+    "drop": 0.15
+   },
+   "master": {
+    "attack": 1100,
+    "defense": 800,
+    "hp": 22000,
+    "crit_damage": 1.2,
+    "lifesteal": 0.08
+   }
+  }
+ ],
+ "tier_gates": [
+  0,
+  26,
+  72,
+  140,
+  240
+ ]
+}

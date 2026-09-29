@@ -1,0 +1,28 @@
+{
+  "abilities": [
+    { "id": "guc_kalkani", "name": "Güç Kalkanı", "kind": "passive",
+      "desc": "Saldırı gücünü kalıcı olarak yükseltir.",
+      "bonus": { "attack": 90, "crit": 0.06 } },
+
+    { "id": "savas_temposu", "name": "Savaş Temposu", "kind": "passive",
+      "desc": "Saldırı ve hareket hızını yükseltir.",
+      "bonus": { "attack_speed": 0.22, "move_speed": 0.5 } },
+
+    { "id": "kan_emme", "name": "Kan Emme", "kind": "passive",
+      "desc": "Verdiğin hasarın bir kısmı cana döner.",
+      "bonus": { "lifesteal": 0.10, "hp": 600 } },
+
+    { "id": "kasirga", "name": "Kasırga", "kind": "melee",
+      "desc": "Çevrendeki herkese ağır bir savuruş.",
+      "mana": 45, "cooldown": 30, "power": 2.6, "radius": 4.2 },
+
+    { "id": "ok_yagmuru", "name": "Ok Yağmuru", "kind": "ranged",
+      "desc": "Uzaktaki hedefe ve çevresine isabet eder.",
+      "mana": 38, "cooldown": 24, "power": 2.1, "radius": 2.6, "range": 11.0 },
+
+    { "id": "savas_narasi", "name": "Savaş Narası", "kind": "buff",
+      "desc": "Kısa süre saldırı gücünü ve hızını fırlatır.",
+      "mana": 60, "cooldown": 200, "power": 1.0,
+      "bonus": { "attack": 120, "attack_speed": 0.25 } }
+  ]
+}

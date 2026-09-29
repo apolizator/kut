@@ -1,0 +1,63 @@
+{
+  "id": "umurca_koyu",
+  "name": "Umurca Köyü",
+  "safe": true,
+  "seed": 100,
+  "extent": [
+    18,
+    13
+  ],
+  "spawn": [
+    -12,
+    0
+  ],
+  "atlas": [
+    0,
+    0
+  ],
+  "levels": [
+    1,
+    1
+  ],
+  "npcs": [
+    {
+      "name": "Demirci Ustası",
+      "at": [
+        -6,
+        -4
+      ],
+      "role": "both"
+    },
+    {
+      "name": "Şifacı Ayşe",
+      "at": [
+        5,
+        -6
+      ],
+      "role": "both"
+    },
+    {
+      "name": "Silahçı Murat",
+      "at": [
+        -2,
+        5
+      ],
+      "role": "both"
+    }
+  ],
+  "monsters": [],
+  "portals": [
+    {
+      "to": "umurca_ovasi",
+      "at": [
+        16,
+        0
+      ],
+      "radius": 1.6,
+      "entry": [
+        -28,
+        0
+      ]
+    }
+  ]
+}

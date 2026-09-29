@@ -1,0 +1,28 @@
+; KUT — Faz 1 çekirdek
+; Bu dosyayı Godot kendisi yönetir; elle düzenlemekten kaçın.
+
+config_version=5
+
+[application]
+
+config/name="Kut"
+run/main_scene="res://shell/main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+
+[debug]
+
+; Bir metot adı motorun yerleşik global fonksiyonlarından birini
+; gölgelerse bu artık UYARI değil HATA. core/rng.gd'de tam olarak bu
+; yüzden sessiz bir determinizm kaybı yaşandı; bir daha yaşanmasın.
+gdscript/warnings/shadowed_global_identifier=2

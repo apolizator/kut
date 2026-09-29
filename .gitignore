@@ -1,0 +1,11 @@
+# Godot
+.godot/
+/android/
+/builds/
+export_presets.cfg
+
+# macOS
+.DS_Store
+
+# Editor
+*.swp

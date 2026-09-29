@@ -1,0 +1,150 @@
+{
+  "id": "golge_vadisi",
+  "name": "Gölge Vadisi",
+  "safe": false,
+  "seed": 243,
+  "extent": [
+    43,
+    30
+  ],
+  "spawn": [
+    -37,
+    0
+  ],
+  "atlas": [
+    2,
+    3
+  ],
+  "levels": [
+    120,
+    140
+  ],
+  "npcs": [],
+  "monsters": [
+    {
+      "name": "Gölge Çakalı",
+      "level": 120,
+      "at": [
+        -19.4,
+        -13.5
+      ],
+      "count": 7,
+      "spread": 7.0,
+      "wander": 3.2,
+      "speed": 3.2,
+      "toughness": 1.35
+    },
+    {
+      "name": "Karanlık Şövalye",
+      "level": 128,
+      "at": [
+        -4.3,
+        13.5
+      ],
+      "count": 8,
+      "spread": 7.6,
+      "wander": 3.4000000000000004,
+      "speed": 3.35,
+      "toughness": 1.75
+    },
+    {
+      "name": "Gölge Devi",
+      "level": 137,
+      "at": [
+        12.9,
+        -13.5
+      ],
+      "count": 9,
+      "spread": 8.2,
+      "wander": 3.6,
+      "speed": 3.5,
+      "toughness": 2.1
+    },
+    {
+      "name": "Kara Büyücü",
+      "level": 139,
+      "at": [
+        23.7,
+        10.5
+      ],
+      "count": 10,
+      "spread": 8.8,
+      "wander": 3.8000000000000003,
+      "speed": 3.6500000000000004,
+      "toughness": 1.8
+    },
+    {
+      "name": "Metin Taşı",
+      "level": 120,
+      "at": [
+        -10.8,
+        21.6
+      ],
+      "count": 1,
+      "stone": true
+    },
+    {
+      "name": "Metin Taşı",
+      "level": 126,
+      "at": [
+        25.8,
+        -21.0
+      ],
+      "count": 1,
+      "stone": true
+    },
+    {
+      "name": "Metin Taşı",
+      "level": 132,
+      "at": [
+        6.5,
+        23.4
+      ],
+      "count": 1,
+      "stone": true
+    }
+  ],
+  "portals": [
+    {
+      "to": "buz_magarasi",
+      "at": [
+        -41,
+        0
+      ],
+      "radius": 1.6,
+      "entry": [
+        35,
+        0
+      ]
+    },
+    {
+      "to": "kadim_sehir",
+      "at": [
+        41,
+        0
+      ],
+      "radius": 1.6,
+      "entry": [
+        -12,
+        0
+      ]
+    }
+  ],
+  "boss": {
+    "name": "Gölge Prensi",
+    "level": 145,
+    "toughness": 3.4,
+    "at": [
+      31.0,
+      -5.4
+    ]
+  },
+  "altar": {
+    "name": "Gölge Sunağı",
+    "level": 145,
+    "at": [
+      0,
+      -24.6
+    ]
+  }
+}

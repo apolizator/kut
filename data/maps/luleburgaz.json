@@ -1,0 +1,75 @@
+{
+  "id": "luleburgaz",
+  "name": "Lüleburgaz",
+  "safe": true,
+  "seed": 133,
+  "extent": [
+    18,
+    13
+  ],
+  "spawn": [
+    -12,
+    0
+  ],
+  "atlas": [
+    3,
+    0
+  ],
+  "levels": [
+    18,
+    18
+  ],
+  "npcs": [
+    {
+      "name": "Tüccar Reşat",
+      "at": [
+        2,
+        -5
+      ],
+      "role": "both"
+    },
+    {
+      "name": "Handan Ana",
+      "at": [
+        -4,
+        4
+      ],
+      "role": "both"
+    },
+    {
+      "name": "Muhafız Cemal",
+      "at": [
+        8,
+        2
+      ],
+      "role": "both"
+    }
+  ],
+  "monsters": [],
+  "portals": [
+    {
+      "to": "kirklareli_gecidi",
+      "at": [
+        -16,
+        0
+      ],
+      "radius": 1.6,
+      "entry": [
+        26,
+        0
+      ]
+    },
+    {
+      "to": "luleburgaz_ormani",
+      "at": [
+        16,
+        0
+      ],
+      "radius": 1.6,
+      "entry": [
+        -31,
+        0
+      ]
+    }
+  ]
+}

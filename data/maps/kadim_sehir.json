@@ -1,0 +1,75 @@
+{
+  "id": "kadim_sehir",
+  "name": "Kadim Şehir",
+  "safe": true,
+  "seed": 254,
+  "extent": [
+    18,
+    13
+  ],
+  "spawn": [
+    -12,
+    0
+  ],
+  "atlas": [
+    1,
+    3
+  ],
+  "levels": [
+    145,
+    145
+  ],
+  "npcs": [
+    {
+      "name": "Kadim Bilge",
+      "at": [
+        0,
+        -6
+      ],
+      "role": "both"
+    },
+    {
+      "name": "Sırlar Bekçisi",
+      "at": [
+        -7,
+        4
+      ],
+      "role": "both"
+    },
+    {
+      "name": "Efsane Ustası",
+      "at": [
+        9,
+        3
+      ],
+      "role": "both"
+    }
+  ],
+  "monsters": [],
+  "portals": [
+    {
+      "to": "golge_vadisi",
+      "at": [
+        -16,
+        0
+      ],
+      "radius": 1.6,
+      "entry": [
+        35,
+        0
+      ]
+    },
+    {
+      "to": "kiyamet_diyari",
+      "at": [
+        16,
+        0
+      ],
+      "radius": 1.6,
+      "entry": [
+        -37,
+        0
+      ]
+    }
+  ]
+}

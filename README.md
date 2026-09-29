@@ -7,6 +7,23 @@ Motor: **Godot 4** · Ana geliştirme: **M5 MacBook** · Oyun hissi testleri: **
 
 ---
 
+## Ekran Görüntüleri
+
+Faz 1'in 2D kabuğu. Grafik geçici — altındaki sayılar kalıcı.
+
+<table>
+<tr>
+<td width="50%"><img src="ekran-goruntuleri/01-dunya.png" alt="Dünya"><br><sub><b>Dünya</b> — statlar, görev takibi, canavar seviyeleri</sub></td>
+<td width="50%"><img src="ekran-goruntuleri/02-canta.png" alt="Çanta"><br><sub><b>Çanta</b> — kuşanılan parçalar ve 72 gözlü envanter</sub></td>
+</tr>
+<tr>
+<td><img src="ekran-goruntuleri/03-yetenekler.png" alt="Yetenekler"><br><sub><b>Yetenekler</b> — mana, bekleme, güç çarpanı ve kademe yolu</sub></td>
+<td><img src="ekran-goruntuleri/04-gorevler.png" alt="Görevler"><br><sub><b>Görevler</b> — ilerleme ve ödül zinciri</sub></td>
+</tr>
+</table>
+
+---
+
 ## Tek Kural
 
 > `core/` klasöründeki hiçbir dosya motoru tanımaz.
